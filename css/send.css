@@ -1,0 +1,47 @@
+video#video{
+	display: none;
+}
+img#prev{
+	max-width: 100%;
+	width: 200px;
+	max-height: 50%;
+}
+canvas#canvasPhotoBase{
+	display: none;
+}
+#reset{
+	display: none;
+}
+
+@media screen and (min-width: 810px) {
+	#snap{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 810px) {
+	img#prev{
+		width: 100%;
+	}
+	#save{
+		display: none;
+	}
+	video#video{
+		width: 100%;
+		display: block;
+	}
+	div#menu-flotant{
+		width: 100%;
+		height: 40px;
+		position: fixed;
+		bottom: 80px;
+		right: 0;
+		left: 0;
+		padding: 20px;
+	}
+	div#menu-flotant input
+	{
+		width: 50%;
+		float: left;
+	}
+}
