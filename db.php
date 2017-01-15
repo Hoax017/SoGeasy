@@ -12,11 +12,11 @@
 				"rdv" => array(
 						array(
 							'date' => "17/06/2016",
-							'content' => "Lorem ipsum Dolore pariatur amet do aute incididunt Ut cupidatat labore irure voluptate voluptate aute est in.",
+							'content' => "Nous avons discute de son pret immobilier.",
 							),
 						array(
 							'date' => "08/01/2016",
-							'content' => "Lorem ipsum Dolore pariatur amet do aute incididunt Ut cupidatat labore irure voluptate voluptate aute est in.",
+							'content' => "Premier rdv.",
 							)
 					),
 				"sutuation" => "Marié",
@@ -48,16 +48,12 @@
 						)
 					),
 				"notification" => array(
-						"Lorem ipsum Do labore velit in adipisicing. 1",
-						"Lorem ipsum Do labore velit in adipisicing. 2",
-						"Lorem ipsum Do labore velit in adipisicing. 3",
-						"Lorem ipsum Do labore velit in adipisicing. 4",
-						"Lorem ipsum Do labore velit in adipisicing. 5",
-						"Lorem ipsum Do labore velit in adipisicing. 6",
-						"Lorem ipsum Do labore velit in adipisicing. 7"
+						"Reclamation sur frais.",
+						"Presentation de produit.",
+						"Le client a parlé d'un projet immobilier."
 					),
 				"produif_fiscaux" => array(
-						"Lorem ipsum"
+						array("Immobilier", "Competences manquante")
 					)
 			);
 	}
@@ -72,11 +68,11 @@
 				"rdv" => array(
 						array(
 							'date' => "03/08/2016",
-							'content' => "Lorem ipsum Dolore pariatur amet do aute incididunt Ut cupidatat labore irure voluptate voluptate aute est in.",
+							'content' => "Du a son changement de situation le client avait besoin de diffetrents conseils.",
 							)
 					),
 				"sutuation" => "Célibataire",
-				"risque" => "hight",
+				"risque" => "high",
 				"competence" => array(
 						"Produit derivé"
 					),
@@ -98,20 +94,11 @@
 					),
 
 				"notification" => array(
-						"Lorem ipsum Do labore velit in adipisicing.",
-						"Lorem ipsum Do labore velit in adipisicing.",
-						"Lorem ipsum Do labore velit in adipisicing.",
-						"Lorem ipsum Do labore velit in adipisicing.",
-						"Lorem ipsum Do labore velit in adipisicing.",
-						"Lorem ipsum Do labore velit in adipisicing.",
-						"Lorem ipsum Do labore velit in adipisicing.",
-						"Lorem ipsum Do labore velit in adipisicing.",
-						"Lorem ipsum Do labore velit in adipisicing."
+						"Reclamation sur frais.",
+						"Presentation de produit."
 					),
 				"produif_fiscaux" => array(
-						"Lorem ipsum",
-						"Lorem ipsum",
-						"Lorem ipsum"
+						array("Immobilier", "Competences manquante")
 					)
 			);
 	}

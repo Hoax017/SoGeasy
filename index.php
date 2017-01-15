@@ -6,7 +6,7 @@
 		case 'medium':
 			$class = "warning";
 			break;
-		case 'hight':
+		case 'high':
 			$class = "danger";
 			break;
 		default:
@@ -47,11 +47,9 @@
 						$i = 0;
 					?>
 					<h3>Notifications</h3>
-					<div class="col-lg-6">
+					<div class="col-lg-12">
 						<ul class="list-group">
-							<?php while ($i < $len):
-									if ($i == intval($len/2)+1) echo '</ul></div><div class="col-lg-6"><ul class="list-group">';
-							?>
+							<?php while ($i < $len): ?>
 								<li class="list-group-item"><?= $user['notification'][$i++] ?></li>
 							<?php endwhile; ?>
 						</ul>
@@ -84,7 +82,7 @@
 				</div>
 				<?php if (!empty($user["gest"])): ?>
 					<div class="col-md-6">
-						<h3>Gestionaire</h3>
+						<h3>Gestionnaire</h3>
 						<ul class="list-group">
 							<li class="list-group-item">Gestionnaire: <?= $user["gest"] ?></li>
 							<li class="list-group-item"><input type="submit" class="primary" value="Contacter"></li>
@@ -122,7 +120,7 @@
 				  </table>
 				</div>
 				<div class="col-lg-12">
-					<h3>Produits financier</h3>
+					<h3>Profil de risques</h3>
 					<div class="row">
 						<div class="col-sm-6">
 							<ul class="list-group">
@@ -134,26 +132,26 @@
 					</div>
 					<div class="row">
 						<div class="col-md-6">
-							<h3>Competences</h3>
+							<h3>Competences (Profil MIF)</h3>
 							<ul class="list-group">
 								<?php foreach ($user['competence'] as $v) { ?>
 									<li class="list-group-item"><?= $v ?></li>
 								<?php } ?>
 							</ul>
 						</div>
-						<div class="col-md-6">
+<!-- 						<div class="col-md-6">
 							<h3>Accessible</h3>
 							<ul class="list-group">
 								<?php foreach ($user['match'] as $v) { ?>
 									<li class="list-group-item"><?= $v ?></li>
 								<?php } ?>
 							</ul>
-						</div>
+						</div> -->
 						<div class="col-md-6">
-							<h3>Accessible</h3>
+							<h3>Anomalies</h3>
 							<ul class="list-group">
 								<?php foreach ($user['produif_fiscaux'] as $v) { ?>
-									<li class="list-group-item"><?= $v ?></li>
+									<li class="list-group-item list-group-item-danger"><?= $v[0] ?>: <?= $v[1] ?></li>
 								<?php } ?>
 							</ul>
 						</div>
