@@ -160,8 +160,28 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-lg-6">
 						<h3>Documents</h3>
+					</div>
+				</div>
+				<div class="row">
+					<form method="post">
+						<div class="col-lg-6">
+							<div class="MDgroup">
+								<input type="text" name="s" data-type="s" value="">
+								<span class="highlight"></span>
+								<span class="bar"></span>
+								<label>Recherche</label>
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<input type="submit" class="primary" value="Rechercher">
+						</div>
+					</form>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
 						<?php foreach ($user['doc'] as $v) { ?>
 							<div class="col-md-6">
 
