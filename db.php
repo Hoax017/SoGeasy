@@ -63,7 +63,7 @@
 				"firstname" => "Jean",
 				"lastname" => "Boneau",
 				"address" => "12 Rue de la fleure jaune",
-				"date_birth" => "21/02/1982",
+				"date_birth" => "21/02/1948",
 				"gest" => "",
 				"rdv" => array(
 						array(
@@ -95,7 +95,8 @@
 
 				"notification" => array(
 						"Reclamation sur frais.",
-						"Presentation de produit."
+						"Presentation de produit.",
+						"69 ème anniversaire"
 					),
 				"produif_fiscaux" => array(
 						array("Immobilier", "Competences manquante")
@@ -105,18 +106,18 @@
 
 	$notif = array(
 			array(
-					"content" => "Lorem ipsum Do do Ut dolor exercitation sunt fugiat Ut esse ex nisi consequat",
+					"content" => "Pot de depart de Jean Michou",
 					"date" => "12/05/2017",
 					"nupers" => ""
 				),
 			array(
-					"content" => "Lorem ipsum Voluptate culpa minim fugiat sit ut tempor velit sed eiusmod dolor Excepteur dolor cillum laboris in veniam quis mollit Duis sed amet officia reprehenderit ad in est nulla sit consectetur.",
+					"content" => "Presentation de produit, prevoir le rendez-vous.",
 					"date" => "12/05/2017",
 					"nupers" => "123456"
 				),
 			array(
-					"content" => "Lorem ipsum Do do Ut dolor exercitation sunt fugiat Ut esse ex nisi consequat commodo quis fugiat Ut magna sunt reprehenderit officia ut ea eiusmod incididunt non ex nostrud ea occaecat velit magna qui do qui enim non dolore velit esse consequat in ullamco labore esse est ut do esse aute exercitation adipisicing ut minim ea elit reprehenderit ut sunt est nulla tempor non velit incididunt anim irure incididunt anim sed aliqua esse aute magna voluptate Duis pariatur amet laborum id et incididunt fugiat Ut sed nisi sunt dolor incididunt eu et est in aliquip labore id et nisi consequat proident sint sint dolore tempor Duis minim pariatur ad nostrud fugiat labore incididunt voluptate dolore eu commodo amet veniam incididunt aute reprehenderit ad cupidatat in laborum quis officia pariatur id labore dolore laboris sit commodo esse elit est consectetur Ut pariatur anim eiusmod aliquip voluptate cupidatat pariatur id ullamco incididunt cupidatat in quis qui incididunt sunt ea qui nisi cillum fugiat irure deserunt esse voluptate Ut eu adipisicing veniam sit ut aliquip irure dolore esse commodo cupidatat aliquip mollit nisi deserunt dolore dolor cupidatat officia sed sint tempor fugiat exercitation tempor Duis laboris non elit aute enim proident.",
-					"date" => "12/05/2017",
+					"content" => "69 ème anniversaire de  Jean Boneau.",
+					"date" => "21/02/2017",
 					"nupers" => "654321"
 				)
 		);

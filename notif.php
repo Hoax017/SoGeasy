@@ -1,5 +1,5 @@
 <?php
-	include_once $_SERVER['DOCUMENT_ROOT'].'/inc/global.php';
+	include_once $_SERVER['DOCUMENT_ROOT'].'/SoGeasy/inc/global.php';
 	define('PAGENAME', 'Notification');
 ?>
 <!DOCTYPE html>

@@ -1,6 +1,6 @@
 <?php
 	$AD_CONFIG = array(
-		'url' => "http://e2r4p12.42.fr:8080",
+		'url' => "https://aymericdev.fr/SoGeasy",
 		'sitemail' => "contact@sogeasy.com",
 		'sitename' => "SoGeasy",
 		'mysql_host' => "localhost",

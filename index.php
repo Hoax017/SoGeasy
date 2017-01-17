@@ -1,5 +1,5 @@
 <?php
-	include_once $_SERVER['DOCUMENT_ROOT'].'/inc/global.php';
+	include_once $_SERVER['DOCUMENT_ROOT'].'/SoGeasy/inc/global.php';
 	define('PAGENAME', 'Accueil');
 
 	switch ($user['risque']) {
@@ -26,7 +26,7 @@
 	<?php include_once ROOT.'/inc/header.php'; ?>
 	<div class="content">
 
-		<form action="/" method="get">
+		<form action="/SoGeasy/" method="get">
 			<div class="MDgroup">
 				<input type="text" name="n" data-type="n" required="true" value="<?php echo $_GET['n'] ?>">
 				<span class="highlight"></span>
@@ -65,7 +65,7 @@
 						<li class="list-group-item">Prenom : <?= $user["lastname"] ?></li>
 						<li class="list-group-item">Adresse : <?= $user["address"] ?></li>
 						<li class="list-group-item">Situation : <?= $user["sutuation"] ?></li>
-						<li class="list-group-item">Date de naissance : <?= $user["date_birth"] ?> - <?= date('Y') - intval(explode("/", $user["date_birth"])[2]) ?> ans</li>
+						<li class="list-group-item">Date de naissance : <?= $user["date_birth"] ?> - <?= Age($user["date_birth"]) ?> ans</li>
 						<li class="list-group-item">Flag: <?= $user["flag"] ?></li>
 					</ul>
 				</div>
